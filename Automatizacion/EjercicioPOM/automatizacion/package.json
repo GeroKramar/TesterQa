@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "node.js": "^0.0.1-security"
+  },
+  "name": "automatizacion",
+  "version": "1.0.0",
+  "main": "test.js",
+  "devDependencies": {
+    "webdriverio": "^8.15.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
