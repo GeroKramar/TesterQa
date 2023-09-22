@@ -25,7 +25,7 @@ public class PruebaIframe {
         driver.switchTo().frame("iframeResult");
 
         // Esperar a que el botón esté presente y sea clickeable
-        By botonLocator = By.xpath("/html/body/button");
+        By botonLocator = By.xpath("/html/body");
         wait.until(ExpectedConditions.presenceOfElementLocated(botonLocator));
         wait.until(ExpectedConditions.elementToBeClickable(botonLocator));
 
