@@ -30,6 +30,11 @@ public class WikipediaBsAs extends WikipediaHomePage{
         this.imagen = imagen;
     }
     
+
+
+
+
+    
 }
 
 
